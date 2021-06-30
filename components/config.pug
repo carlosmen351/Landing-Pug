@@ -1,0 +1,12 @@
+-var titulo = "Titulo Principal"
+-var titulos = ["Sub-titulo 1", "Sub-titulo 2", "Sub-titulo 3"]
+-var usuario = "Carlos"
+-var menu = ["Acerca", "Noticias", "Contacto"]
+-var lorem = "Lorem ipsum dolor sit amet consectetur adipisicing."
+-var enlaces = ["Acerca", "Noticias", "Contacto"]
+mixin caja(imagen,titulo,contenido)
+  .caja
+    .caja__imagen: img(src="/images/"+imagen, alt="")
+    .caja__contenido
+      h3=titulo
+      p=contenido
